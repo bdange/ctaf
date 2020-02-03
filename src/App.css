@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  font-family: "Quantify";
+}
+
+.App .header {
+  text-align: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-orient: horizontal;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  margin-left: 20px;
+}
+
+.social-left {
+  margin-left: 20px;
+}
+
+.social {
+  margin-left: 10px;
+}
+
+.flex-item {
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+  margin: 30px;
+  margin-top: 0;
+  line-height: 100px;
+  font-size: 2em;
+  text-align: center;
+  justify-content: center;
+}
+
+.right {
+  margin-right: 120px;
+  margin-left: 0;
+  padding: 0;
+  justify-content: left;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Announcement {
+  margin-top: 8em;
+}
+
+.countdown_wrapper {
+  position: absolute;
+  color: #ffffff;
+  margin-left: 30em;
+  margin-top: 2em;
+}
+
+.countdown_wrapper .countdown_top {
+  background: #072d19;
+  font-size: 18px;
+  padding: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.countdown_wrapper .countdown_bottom {
+  display: flex;
+  background: #e2a20d;
+  padding: 10px 20px;
+  padding-right: 1px;
+  flex-wrap: nowrap;
+}
+
+.countdown_wrapper .countdown_time {
+  font-size: 60px;
+  border-right: 1px solid #072d19;
+  margin-right: 14px;
+  padding-right: 49px;
+  color: #e6f3d8;
+}
+
+.countdown_wrapper .countdown_item:last-child .countdown_time {
+  border: none;
+  width: 30px;
+}
+
+.countdown_wrapper .countdown_item .countdown_time {
+  width: 45px;
+}
+
+.countdown_wrapper .countdown_tag {
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-left: 7px;
+  padding-right: 0px;
+  color: #e6f3d8;
+}

@@ -5,7 +5,7 @@
   font-family: "Quantify";
 }
 
-.App .header {
+.header {
   text-align: center;
   justify-content: space-between;
   padding: 0;
@@ -22,10 +22,11 @@
 }
 
 .social-left {
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 .social {
+  position: center;
   margin-left: 10px;
 }
 
@@ -39,13 +40,16 @@
   font-size: 2em;
   text-align: center;
   justify-content: center;
+  position: center;
 }
 
 .right {
   margin-right: 120px;
-  margin-left: 0;
+  margin-left: 0px;
+  margin-top: 0;
   padding: 0;
   justify-content: left;
+  height: 100px;
 }
 
 .App-link {
@@ -57,10 +61,12 @@
 }
 
 .countdown_wrapper {
-  position: absolute;
+  position: center;
   color: #ffffff;
-  margin-left: 30em;
+
   margin-top: 2em;
+  text-align: center;
+  display: inline-block;
 }
 
 .countdown_wrapper .countdown_top {

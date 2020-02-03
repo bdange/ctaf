@@ -27,9 +27,7 @@ function Header() {
           alt="Website Logo"
         ></img>
       </li>
-      <li className="flex-item right">
-        <p>Links will appear here</p>
-      </li>
+      <li className="flex-item right">{/* <h1>Links</h1> */}</li>
     </ul>
   );
 }

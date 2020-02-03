@@ -3,7 +3,7 @@ import Slide from "react-reveal/Slide";
 
 class Countdown extends Component {
   state = {
-    deadline: "Feb, 20, 2020",
+    deadline: "Feb, 10, 2020",
     days: "0",
     hours: "0",
     minutes: "0",
@@ -45,7 +45,7 @@ class Countdown extends Component {
           </div>
           <div className="countdown_item">
             <div className="countdown_time">{this.state.hours}</div>
-            <div className="countdown_tag">HS</div>
+            <div className="countdown_tag">HOURS</div>
           </div>
           <div className="countdown_item">
             <div className="countdown_time">{this.state.minutes}</div>

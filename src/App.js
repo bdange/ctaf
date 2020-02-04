@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import { Element } from "react-scroll";
 
 import Header from "./components/Header";
 import Announcement from "./components/Announcement";

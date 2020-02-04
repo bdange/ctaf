@@ -3,6 +3,7 @@ import React from "react";
 function Widget() {
   return (
     <iframe
+      title="Ulule widget"
       frameborder="0"
       height="300px"
       width="310px"

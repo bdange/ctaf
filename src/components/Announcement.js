@@ -1,6 +1,5 @@
 import React from "react";
 import Countdown from "./Countdown";
-import Widget from "./Widget";
 import { SocialIcon } from "react-social-icons";
 
 function Announcement() {
@@ -25,6 +24,8 @@ function Announcement() {
       <a
         href="https://nl.ulule.com/cestafric-collection-s20/coming-soon/"
         target="_blank"
+        rel="noopener noreferrer"
+        alt="Link to Ulule Campaign"
       ></a>
 
       <Countdown />

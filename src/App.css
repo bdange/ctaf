@@ -60,6 +60,14 @@
   margin-top: 8em;
 }
 
+.Orange {
+  color: #e2a20d;
+}
+
+.Green-light {
+  color: #e6f3d8;
+}
+
 .countdown_wrapper {
   position: center;
   color: #ffffff;
@@ -70,8 +78,8 @@
 }
 
 .countdown_wrapper .countdown_top {
-  background: #072d19;
-  font-size: 18px;
+  background: #95c11f;
+  font-size: 15px;
   padding: 10px;
   display: inline-block;
   text-transform: uppercase;
@@ -86,7 +94,7 @@
 }
 
 .countdown_wrapper .countdown_time {
-  font-size: 60px;
+  font-size: 50px;
   border-right: 1px solid #072d19;
   margin-right: 14px;
   padding-right: 49px;
@@ -104,7 +112,7 @@
 
 .countdown_wrapper .countdown_tag {
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 17px;
   padding-left: 7px;
   padding-right: 0px;
   color: #e6f3d8;

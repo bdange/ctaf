@@ -6,7 +6,7 @@ function Header() {
   return (
     <ul className="header">
       <li className="flex-item container">
-        <div className="social-left">
+        {/* <div className="social-left">
           <SocialIcon
             url="https://www.instagram.com/cestafric/"
             target="_blank"
@@ -17,7 +17,7 @@ function Header() {
             url="https://www.facebook.com/cestafric/"
             target="_blank"
           />
-        </div>
+        </div> */}
       </li>
       <li className="flex-item">
         <img

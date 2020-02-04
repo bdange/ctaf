@@ -6,7 +6,7 @@ function Widget() {
       frameborder="0"
       height="300px"
       width="310px"
-      src="https://fr.ulule.com/cest-t-afric/widget.html"
+      src="https://nl.ulule.com/cest-t-afric/widget.html"
       scrolling="no"
     ></iframe>
   );

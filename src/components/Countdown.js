@@ -28,7 +28,7 @@ class Countdown extends Component {
       });
     }
   }
-
+  ///
   componentDidMount() {
     setInterval(() => this.getTimeUntil(this.state.deadline), 1000);
   }

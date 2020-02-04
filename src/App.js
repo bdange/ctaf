@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <Announcement />
+      <br />
       <Widget />
     </div>
   );

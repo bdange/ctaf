@@ -1,6 +1,7 @@
 import React from "react";
 import Countdown from "./Countdown";
-import { SocialIcon } from "react-social-icons";
+import Facebook from "../facebook.png";
+import Insta from "../insta.png";
 
 function Announcement() {
   return (
@@ -14,12 +15,22 @@ function Announcement() {
       <br />
       <h2 className="Green-light">
         If you want to get in touch, you can reach us via{" "}
-        <SocialIcon
-          url="https://www.instagram.com/cestafric/"
+        <a
+          href="https://www.facebook.com/cestafric/"
           target="_blank"
-        />{" "}
+          rel="noopener noreferrer"
+        >
+          <img alt="Facebook link" src={Facebook} width="40" height="40" />
+        </a>{" "}
         and{" "}
-        <SocialIcon url="https://www.facebook.com/cestafric/" target="_blank" />
+        <a
+          href="https://www.instagram.com/cestafric/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {" "}
+          <img alt="Insta link" src={Insta} width="40" height="40" />
+        </a>
       </h2>
       <a
         href="https://nl.ulule.com/cestafric-collection-s20/coming-soon/"

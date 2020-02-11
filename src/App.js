@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Announcement />
       <br />
-      <Widget />
+      {/* <Widget /> */}
     </div>
   );
 }
